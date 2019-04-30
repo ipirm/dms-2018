@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<!--for scaling across various devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--set the color for the URL bar on Chrome on Android phones/tablets-->
+	<meta name="theme-color" content="#000000">
+
+	<title>Title of Page</title>
+
+	<!--stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="header-main">
+			<div class="logo">
+				<img src="img/DMT.png">
+			</div>
+			<div class="header-main__search">
+				<input type="text" placeholder="Название, номер документа">
+
+
+
+				<div class="header-main__btn">
+					<p>Расширенный поиск</p>
+				</div>
+			</div>
+			<div class="header-main__login">
+				<ul>
+					<li><a class="header-main__notification"><img src="img/bell.svg"><span>919</span></a></li>
+					<li><a class="header-main__notification"><img src="img/letter.svg"><span>919</span></a></li>
+				</ul>
+			</div>
+			<div class="header-main__signin">
+				<img src="img/preson.svg"><span>Константинопольский <br>
+					Константин</span>
+			</div>
+			<div class="header-main__exit">
+				<span>Выйти</span>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<div class="sidebar">
+			<ul class="sidebar-documents">
+				<h1 class="sidebar-title">Документы</h1>
+				<li><a href="/"><img src="img/group1.svg"><span>Черновики</span> <b>123</b> </a></li>
+				<li><a href="/"><img src="img/group2.svg"><span>Согласование</span> </a></li>
+				<li><a href="/"><img src="img/Group5.svg"><span>На регистрации</span> <b>5213</b> </a></li>
+				<li><a href="/"><img src="img/document%20(1).svg"><span>Корреспонденция</span> <b>5</b> </a></li>
+				<li><a href="/"><img src="img/Group8.svg"><span>Хранилище</span></a></li>
+				<li><a href="/"><img src="img/Vector2.svg"><span>Резолюции</span></a></li>
+				<li><a href="/"><img src="img/Group10.svg"><span>Отчеты</span><b>1523</b></a></li>
+			</ul>
+			<ul class="sidebar-office">
+				<li><a href="/">Канцелярия</a></li>
+				<li><a href="/">Поручения</a></li>
+				<li><a href="/">Обращения</a></li>
+				<li><a href="/">Персонал</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="menu-tools">
+				<div class="menu-tools-item active-tool">
+					<img src="img/house-plan.svg">
+					<p>Черновик</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/house-plan.svg">
+					<p>Договор</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/Vector6.svg">
+					<p>ОРД</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/Group15.svg">
+					<p>Задача</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/Vector555.svg">
+					<p>Папка</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/house-plan.svg">
+					<p>Маршрут</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/Group8888.svg">
+					<p>Группы
+						исполнителей</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/house-plan.svg">
+					<p>Шаблоны
+						документов</p>
+				</div>
+				<div class="menu-tools-item">
+					<img src="img/Group555555.svg">
+					<p>Хранилище
+						документов</p>
+				</div>
+			</div>
+
+			<div class="quote">
+				<h1>Управление документами</h1>
+				<p>Предназначен для полноценной работы с электронными версиями документов в
+					организации, поддерживает полноценное функуионирование документопотока и
+					контроля выданных поручений.</p>
+			</div>
+			<div class="bar-charts">
+				<ul class="bar-charts__list">
+					<li>
+						<p class="chart-text">Всего</p>
+						<img src="img/chart1.svg">
+						<p style="color: #99CED4;" class="chart-number">0</p>
+					</li>
+					<li>
+						<p class="chart-text">Исполнено</p>
+						<img src="img/chart2.svg">
+						<p style="color: #BBD851" class="chart-number">0</p>
+					</li>
+					<li>
+						<p class="chart-text">В работе</p>
+						<img src="img/chart3.svg">
+						<p style="color: #E5C430" class="chart-number">0</p>
+					</li>
+					<li>
+						<p class="chart-text">Просрочено</p>
+						<img src="img/chart4.svg">
+						<p style="color: #E7933D" class="chart-number">0</p>
+					</li>
+					<li>
+						<p class="chart-text">Дан ответ</p>
+						<img src="img/chart5.svg">
+						<p style="color: #E86971" class="chart-number">0</p>
+					</li>
+					<li>
+						<p class="chart-text">Отменено</p>
+						<img src="img/chart6.svg">
+						<p style="color: #C0CAD5" class="chart-number">0</p>
+					</li>
+				</ul>
+				<ul class="bar-charts__list rounded">
+					<li>
+						<img src="img/Untitled-7.svg">
+						<p class="rounded-chart">На контроле</p>
+					</li>
+					<li>
+						<img src="img/Untitled-9.png">
+						<p class="rounded-chart">СРОК: сегодня</p>
+					</li>
+					<li>
+						<img src="img/Untitled-7%202.svg">
+						<p class="rounded-chart">до 3 дней</p>
+					</li>
+					<li>
+						<img src="img/489.svg">
+						<p class="rounded-chart">более 3 дней</p>
+					</li>
+					<li>
+						<img src="img/Untitled-8.png">
+						<p class="rounded-chart">более недели</p>
+					</li>
+					<li>
+						<img src="img/78946.png">
+						<p class="rounded-chart">более месяца</p>
+					</li>
+				</ul>
+				<div class="docs-list">
+					<div style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, rgba(82, 57, 148, 0.6) 100%), #4C338E;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs"> Черновики</span>
+							<span class="docs-number">6</span>
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+					<div style="background:linear-gradient(0deg, rgba(7, 92, 124, 0.59) 0%, rgba(0, 157, 222, 0) 100%), #00B8F8;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs">Согласование</span>
+
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+					<div style=" background: linear-gradient(180deg, rgba(179, 235, 135, 0.5) 0%, rgba(255, 255, 255, 0) 83.85%), #699F2E;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs"> На регистрации</span>
+							<span class="docs-number">140</span>
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+					<div style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.312) 0%, rgba(247, 85, 39, 0.568) 75.02%), #DB4B17;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs">Корреспонденция</span>
+							<span class="docs-number">12</span>
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+					<div style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, rgba(230, 34, 96, 0.58) 86.98%), #E11D5B;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs">Хранилище</span>
+							<span class="docs-number">9421</span>
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+					<div style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.27) 0%, rgba(0, 124, 220, 0.51) 77.6%), #0073D0;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs"> Резолюции</span>
+							<span class="docs-number"></span>
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+
+					<div style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.23) 0%, rgba(146, 208, 75, 0.17) 63.76%), #7FBD38;" class="docs-list__item">
+						<div class="docs-list-title">
+							<img src="img/bgitem.svg"><span class="title-docs"> Отчеты</span>
+							<span class="docs-number">9421</span>
+						</div>
+						<p>Подготовка и согласование проектов
+							документов, подписание документов(в том
+							числе с использованием
+							ЭЦП),формирование документов по
+							шаблону, передача документов на
+							рассмотрение, ознакомление или
+							отправка в другие организации</p>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	<div class="footer">
+		<span>2017 год Аворора</span>
+		<span>Служба поддержки: support@avroradg.ru</span>
+	</div>
+	<footer>
+		<!--javascript-->
+		<script type="text/javascript" src="main.js"></script>
+	</footer>
+</body>
+
+</html>
