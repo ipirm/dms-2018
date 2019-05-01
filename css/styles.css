@@ -456,7 +456,8 @@ a {
   .menu-tools {
     width: 92%; }
   .content {
-    width: 100%; }
+    width: 100%;
+    overflow-x: hidden; }
   .menu-tools-item {
     margin-right: 5px; }
   .bar-charts__list {
@@ -471,7 +472,8 @@ a {
   .rounded li {
     margin-right: 20px; }
   .docs-list {
-    padding: 0px 7px; }
+    padding: 0px 7px;
+    width: 95%; }
   .footer {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
