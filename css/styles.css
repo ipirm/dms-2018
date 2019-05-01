@@ -446,6 +446,8 @@ a {
     display: none; } }
 
 @media only screen and (max-width: 600px) {
+  .docs-list .docs-list__item {
+    width: 100%; }
   .header-main {
     display: none; }
   .content {
@@ -460,12 +462,9 @@ a {
     z-index: 1;
     overflow-y: auto; }
   .rounded {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    padding: 0px 10px; }
   .rounded li {
-    margin-right: 0px; }
+    margin-right: 20px; }
   .docs-list {
     padding: 0px 7px; }
   .footer {
