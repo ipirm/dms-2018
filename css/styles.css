@@ -450,10 +450,12 @@ a {
     width: 100%; }
   .header-main {
     display: none; }
+  .menu-tools {
+    width: 92%; }
   .content {
     width: 100%; }
   .menu-tools-item {
-    width: 90px; }
+    margin-right: 5px; }
   .bar-charts__list {
     padding: 0px 4px; }
   .sidebar {
