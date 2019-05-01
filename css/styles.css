@@ -432,11 +432,12 @@ a {
       color: #E4F6EE;
       background: #8FC442; }
 
-.login-mobile .header-main__signin {
-  margin: 20px 10px; }
-
-.login-mobile .header-main__login {
-  margin: 20px 10px; }
+.login-mobile {
+  display: none; }
+  .login-mobile .header-main__signin {
+    margin: 20px 10px; }
+  .login-mobile .header-main__login {
+    margin: 20px 10px; }
 
 .header-mobile {
   background: #383838;
@@ -448,10 +449,12 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 10px 0px; }
+  padding: 10px 0px;
+  display: none; }
 
 .search-mobile {
   width: 100%;
+  display: none;
   margin: 20px 10px; }
   .search-mobile input {
     width: 89%;
@@ -486,6 +489,13 @@ a {
     width: 31%; } }
 
 @media only screen and (max-width: 600px) {
+  .header-mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .login-mobile {
+    display: block; }
   .bar-charts__list li {
     width: 33%; }
   .rounded li {
@@ -493,6 +503,8 @@ a {
   .docs-list .docs-list__item {
     margin-right: 0px;
     max-width: none; }
+  .search-mobile {
+    display: block; }
   .header-main {
     display: none; }
   .menu-tools {
