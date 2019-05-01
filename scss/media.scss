@@ -3,7 +3,18 @@
     max-width: 343px;
 	}
 }
+@media only screen and (min-width: 600px) {
+	.checkbox{
+		display: none;
+	}
+	.checkbox3{
+		display: none;
+	}
+}
 @media only screen and (max-width: 600px) {
+	.header-main {
+		display: none;
+	}
 	.content{
 		width: 100%;
 	}
