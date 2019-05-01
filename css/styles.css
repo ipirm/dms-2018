@@ -448,7 +448,8 @@ a {
 @media only screen and (max-width: 600px) {
   .docs-list .docs-list__item {
     width: 98%;
-    margin-right: 0px; }
+    margin-right: 0px;
+    max-width: none; }
   .header-main {
     display: none; }
   .menu-tools {
