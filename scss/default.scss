@@ -26,7 +26,7 @@ ul,ol{
 }
 a{
 	text-decoration: none;
-	
+
 }
 .wrapper{
 	display: flex;
@@ -38,4 +38,8 @@ a{
 	flex-direction: column;
 	width: 81%;
 	padding-bottom: 20px;
+}
+.header-main__exit:hover span{
+	color: #fff;
+	cursor: pointer;
 }

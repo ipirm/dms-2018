@@ -8,7 +8,7 @@
 	&__exit{
 		margin: 0px 20px;
 		position: relative;
-		
+
 		span{
 font-family: Roboto;
 font-size: 20px;
@@ -37,9 +37,9 @@ top: -5px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		flex: 1 1;
+		width: 31%;
 		input {
-				 width: 450px;			
+				 width: 450px;
 	           border-radius: 2px;
 			background: #FFFFFF;
 			height: 24px;
@@ -113,4 +113,44 @@ color: #EAEAEA;
 		}
 	}
 }
+.login-mobile{
+	display: none;
+	.header-main__signin{
+			margin: 20px 10px;
 
+	}
+	.header-main__login{
+				margin: 20px 10px;
+
+	}
+}
+.header-mobile{
+		background: #383838;
+		display: flex;
+		justify-content: center;
+		padding: 10px 0px;
+			display: none;
+}
+.search-mobile{
+	width: 100%;
+			display: none;
+    margin: 20px 10px;
+	input{
+		width: 89%;
+    height: 40px;
+    border: none;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #6b6e73;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(../img/search.svg);
+    -webkit-background-size: 15px 15px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+	}
+}

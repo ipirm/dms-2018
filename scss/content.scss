@@ -4,7 +4,7 @@
 	flex-wrap: wrap;
 	background-color: #DCDCDC;
 	padding: 5px 20px;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 .menu-tools-item{
@@ -91,7 +91,7 @@ color: #71726D;
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 0px 20px;
-	width: 100%;
+	max-width: 100%;
 	.docs-list__item{
 			max-width: 427px;
 		padding: 15px 0px;
@@ -119,7 +119,7 @@ color: #EDDFFF;
 }
 .title-docs{
 font-size: 26px;
-line-height: 41px;
+line-height: 26px;
 color: #EDDFFF;
 }
 .docs-number{
