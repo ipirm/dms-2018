@@ -460,7 +460,7 @@ img {
   height: auto; }
 
 body {
-  font-family: 'Saira ExtraCondensed',sans-serif;
+  font-family: 'Saira ExtraCondensed', sans-serif;
   max-width: 100%;
   width: 100%;
   position: relative;
@@ -473,7 +473,8 @@ body {
   padding: 0;
   margin: 0; }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   -webkit-padding-start: 0px;
   padding-inline-start: 0px; }
@@ -1214,7 +1215,29 @@ a {
   .docs-list .docs-list__item {
     margin-right: auto;
     max-width: none;
-    width: 100%; } }
+    width: 100%; }
+  .nav-main {
+    height: auto; }
+  .card-main__nav {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .resolution-main {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .resolution-main .left-col__documents {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .right-col {
+    width: 90%; }
+  .resolution-main .left-col {
+    width: 90%; }
+  .inner-page .btn-footer {
+    margin-top: 15px; }
+  .inner-page .footer {
+    height: auto; } }
 
 @media (min-width: 800px) and (max-width: 1200px) {
   .sidebar {

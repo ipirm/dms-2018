@@ -1,5 +1,6 @@
 .inner-page {
 	background-color: #fff;
+
 	.sidebar {
 		display: none;
 	}
@@ -161,31 +162,36 @@
 	}
 
 }
-.inner-page{
-	.footer{
+
+.inner-page {
+	.footer {
 		margin-top: 60px;
-display: flex;
-max-width: 100%;
-height: 75px;
-background: #F0F0F0;
-				justify-content: flex-start;
+		display: flex;
+		max-width: 100%;
+		height: 75px;
+		background: #F0F0F0;
+		justify-content: flex-start;
 	}
-	.btn-footer{
-width: 110px;
-height: 45px;
-display: flex;
+
+	.btn-footer {
+		width: 110px;
+		height: 45px;
+		display: flex;
 		margin-right: 20px;
 		align-items: center;
 		justify-content: center;
-		span{
-font-size: 16px;
-color: #000000;
+
+		span {
+			font-size: 16px;
+			color: #000000;
 
 		}
 	}
-	.btn-footer:hover{
+
+	.btn-footer:hover {
 		cursor: pointer;
-		span{
+
+		span {
 			color: #fff;
 		}
 	}
