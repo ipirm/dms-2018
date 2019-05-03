@@ -13,7 +13,7 @@
   flex-wrap: wrap;
   background-color: #DCDCDC;
   padding: 5px 20px;
-  width: 100%;
+  max-width: 100%;
   height: auto; }
 
 .menu-tools-item {
@@ -130,7 +130,7 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0px 20px;
-  width: 100%; }
+  max-width: 100%; }
   .docs-list .docs-list__item {
     max-width: 427px;
     padding: 15px 0px;
@@ -167,7 +167,7 @@
 
 .title-docs {
   font-size: 26px;
-  line-height: 41px;
+  line-height: 26px;
   color: #EDDFFF; }
 
 .docs-number {
@@ -516,7 +516,8 @@ a {
     display: none; }
   .menu-tools {
     width: 102%;
-    padding: 0px; }
+    padding: 0px;
+    max-width: none; }
   .content {
     width: 98%; }
   .menu-tools-item {
@@ -725,6 +726,16 @@ a {
     margin-right: auto;
     max-width: none;
     width: 100%; } }
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .sidebar {
+    width: 258px !important; }
+  .sidebar-documents li a span {
+    font-size: 15px !important; }
+  .sidebar-office a {
+    font-size: 19px !important; }
+  .sidebar-documents li a {
+    width: 217px !important; } }
 
 .sidebar {
   width: 282px;
