@@ -737,6 +737,16 @@ a {
   .sidebar-documents li a {
     width: 217px !important; } }
 
+@media only screen and (max-width: 1400px) {
+  .title-docs {
+    font-size: 23px; }
+  .docs-number {
+    font-size: 37px; }
+  .docs-list .docs-list__item p {
+    font-size: 16px; }
+  .header-main__exit span {
+    font-size: 17px; } }
+
 .sidebar {
   width: 282px;
   background-color: #5B5D5C; }
