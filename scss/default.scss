@@ -57,3 +57,13 @@ select{
 .js-togle__btn{
 	display: none;
 }
+.active-sidebar{
+	position: absolute;
+	display: block !important;
+    top: 93px;
+    height: 90vh;
+    z-index: 99;
+}
+.active-rotate img{
+	    transform: rotate(180deg) !important;
+}

@@ -31,6 +31,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+	.nav-main__arrow{
+		display: none;
+	}
 	.overlay-date {
 		margin-left: 0px !important;
 	}
@@ -370,7 +373,7 @@
 		font-size: 15px !important;
 	}
 
-	.sidebar-office a {
+	.sidebar-title {
 		font-size: 19px !important;
 	}
 

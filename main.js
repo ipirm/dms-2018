@@ -17,8 +17,17 @@
   });
 
   $(".sidebar-title").click(function(){
-    $(".sidebar-title").removeClass( "active-title" );
+
 $( this ).toggleClass( "active-title" );
  $( this ).next( ".js-togle__btn" ).slideToggle( "slow" );
 });
+$(".nav-main__arrow").click(function(){
+    $( this ).toggleClass( "active-rotate" );
+$(".inner-page .sidebar" ).toggleClass( "active-sidebar" );
+});
       });
+
+      $(".nav-main__item").click(function(){
+        $(".nav-main__item").removeClass( "nav-main__active" );
+    $( this ).addClass( "nav-main__active" );
+    });

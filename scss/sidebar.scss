@@ -56,11 +56,34 @@
 }
 
 .sidebar-title {
-	font-size: 30px;
+	font-size: 22px;
 	color: #FFFFFF;
-	padding: 10px 0px 0px 25px;
+	padding: 15px 0px 0px 15px;
 	padding-bottom: 20px;
 	cursor: pointer;
+	font-weight: 300;
+	position: relative;
+}
+.sidebar-title::after{
+	width: 189px;
+	height: 1px;
+	position: relative;
+	display: block;
+	content: '';
+	background-color: rgba(195, 197, 196, 0.5);
+	top: 15px;
+
+
+}
+.sidebar-documents:last-of-type{
+	padding-bottom: 15px;
+}
+.active-title{
+	font-weight: bold;
+	font-size: 24px;
+}
+.active-title::after{
+	display: none;
 }
 .sidebar-title:hover{
 	opacity: 0.8;
