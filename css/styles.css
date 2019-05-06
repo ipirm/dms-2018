@@ -1355,7 +1355,7 @@ select {
       .sidebar-documents li a img {
         margin-right: 7px; }
       .sidebar-documents li a span {
-        font-size: 19px;
+        font-size: 15px;
         line-height: 0px;
         color: #D8DAD9; }
     .sidebar-documents li b {
@@ -1385,6 +1385,9 @@ select {
   content: '';
   background-color: rgba(195, 197, 196, 0.5);
   top: 15px; }
+
+.sidebar-documents {
+  padding-top: 10px; }
 
 .sidebar-documents:last-of-type {
   padding-bottom: 15px; }
