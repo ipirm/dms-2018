@@ -378,7 +378,7 @@
   padding: 0px 20px;
   max-width: 100%; }
   .docs-list .docs-list__item {
-    max-width: 427px;
+    max-width: 367px;
     padding: 15px 0px;
     margin-top: 50px;
     margin-right: 20px; }
@@ -1286,7 +1286,7 @@ select {
     font-size: 17px; } }
 
 .sidebar {
-  width: 282px;
+  width: 248px;
   background-color: #5B5D5C; }
 
 .sidebar-documents {
