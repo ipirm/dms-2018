@@ -31,7 +31,6 @@ ol {
 
 a {
 	text-decoration: none;
-
 }
 
 .wrapper {
@@ -43,7 +42,7 @@ a {
 .content {
 	display: flex;
 	flex-direction: column;
-	width: 81%;
+	width: 85%;
 	padding-bottom: 20px;
 }
 
@@ -51,19 +50,28 @@ a {
 	color: #fff;
 	cursor: pointer;
 }
-select{
+
+select {
 	background-color: #fff;
 }
-.js-togle__btn{
+
+.js-togle__btn {
 	display: none;
 }
-.active-sidebar{
+
+.active-sidebar {
 	position: absolute;
 	display: block !important;
-    top: 93px;
-    height: 90vh;
-    z-index: 99;
+	top: 93px;
+	height: 90vh;
+	z-index: 99;
 }
-.active-rotate img{
-	    transform: rotate(180deg) !important;
+
+.active-rotate img {
+	transform: rotate(180deg) !important;
+}
+
+.menu-tools-item img {
+	width: 32px;
+	height: 32px;
 }
