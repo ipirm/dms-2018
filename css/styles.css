@@ -1389,6 +1389,9 @@ select {
 .sidebar-documents {
   padding-top: 10px; }
 
+.sidebar-documents:first-of-type {
+  padding-top: 25px; }
+
 .sidebar-documents:last-of-type {
   padding-bottom: 15px; }
 
